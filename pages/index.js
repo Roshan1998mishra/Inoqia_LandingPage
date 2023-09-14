@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Meta
         title="Inoqia - Connect With Visionary Minds"
-        desc="Inoqia Systems Private Limited"
+        desc="Inoqia - Connect With Visionary Minds"
         // keyword="Decentralized cloud storage, Decentralized app"
         icon="/favicon.ico"
         metaImage="https://inoqia.com/metaimage.png"

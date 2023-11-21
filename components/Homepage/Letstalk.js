@@ -1,5 +1,6 @@
 import React from 'react'
 import Image  from 'next/image'
+import vector from '/assets/Vector.svg'
 
 const Letstalk = () => {
   return (
@@ -14,7 +15,12 @@ const Letstalk = () => {
 
 
             <div className='w-1/2 p-4'> 
-                second
+
+                <div className='cirvectr'>
+                    
+                    <Image src={vector} alt='vector' className='vectorimg'></Image>
+                </div>
+
             </div>
 
           </div>

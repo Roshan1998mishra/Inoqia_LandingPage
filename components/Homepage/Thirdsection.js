@@ -8,13 +8,13 @@ const Thirdsection = () => {
   return (
 <div>
 
-   <div class="flex">
+   <div class="flex fshow">
   <div class="w-1/2 p-4">
     <Image src={players} alt="players" className='playerimg' /> 
   </div>
 
 
-  <div class="w-1/2 p-4 style={background-image:url'/assets/firstshadow.jpg'}">
+  <div class="w-1/2 p-4">
 
      <p className='text-gray-500 font-Outfit text-base font-medium leading-37 tracking-wider uppercase'>Dedication</p>
      <p className='text-gray-800 font-Outfit text-4xl font-semibold leading-62 tracking-tight" w-96 style="letter-spacing: -0.9px;'>Only The Committed <br></br> Players</p>
@@ -30,5 +30,6 @@ const Thirdsection = () => {
 }
 
 export default Thirdsection
+
 
   

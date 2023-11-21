@@ -53,25 +53,53 @@ body {
   width: 70%;
   margin-left:10%;
 }
-.para3 {
+.commitsection-para3 {
   padding-right: 23%;
+  font-family: '__Outfit_ef45e8';
 }
-.contentsec4{
+
+.benefitscontentsection4{
   padding-left: 12%;
 
 }
-.contentseclets {
+.contentsectionlets{
   padding-left: 12%;
 }
-
-.cirvectr {
-  margin-left: 50%;
+.contentsectionlets-head{
+  letter-spacing: 6px;
 }
-
-.fshow {
-  background-image: url("../assets/firstshadow.jpg");
-  
-
+.dedication-text {
+  letter-spacing: 6px;
+  color: #888;
+}
+.contentsectionlets-head {
+  color: #888;
+}
+.timeeffective-text {
+  letter-spacing: 6px;
+  color: #888;
+}
+.lets-talk-section-para{
+  font-family: '__Outfit_ef45e8';
+}
+.benefits-section-para{
+  font-family: '__Outfit_ef45e8';
+}
+.commitsection-heading {
+  font-family: '__Outfit_12c7b4', '__Outfit_Fallback_12c7b4';
+  padding-top: 2%;
+}
+.benefits-section-heading {
+  font-family: '__Outfit_12c7b4', '__Outfit_Fallback_12c7b4'; 
+}
+.circle-section{
+  display: flex;
+  justify-content: center;
+  border: 3px solid #000;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: auto;
 }
 
 

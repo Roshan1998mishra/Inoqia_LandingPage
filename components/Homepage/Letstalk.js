@@ -5,7 +5,7 @@ import vector from '/assets/Vector.svg'
 const Letstalk = () => {
   return (
     <div>
-          <div className='flex mt-5'>
+          <div className='flex mt-5 lets-talk-section'>
             <div className='w-1/2 p-4 contentsectionlets'>
                 <p className='contentsectionlets-head text-[#888888] text-[14px] __className_daeadc tracking-widest'>TRANSPARENT COMMUNICATION</p>
                 <p className='text-gray-800 pt-2 font-Outfit text-4xl font-semibold leading-62 tracking-tight" style="letter-spacing: -0.9px;'>Let’s Talk!</p>

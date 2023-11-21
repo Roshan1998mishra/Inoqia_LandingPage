@@ -5,6 +5,8 @@ import { HeroSection } from "@/components/Homepage/HeroSection";
 import Letstalk from "@/components/Homepage/Letstalk";
 import Meta from "@/components/Homepage/Meta";
 import Commitsection from "@/components/Homepage/Commitsection"
+import Footer from "@/components/Homepage/Footer";
+
 
 
 
@@ -25,6 +27,7 @@ export default function Home() {
       <Commitsection/>
       <Benefitsection/>
       <Letstalk/>
+      <Footer/>
     </>
   );
 }

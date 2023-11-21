@@ -51,19 +51,19 @@ body {
 
 .congraimg {
   width: 70%;
-  margin-left:10%;
+  
 }
 .commitsection-para3 {
-  padding-right: 23%;
+  padding-right: 10rem;
   font-family: '__Outfit_ef45e8';
 }
 
 .benefitscontentsection4{
-  padding-left: 12%;
+  padding-left: 12rem;
 
 }
 .contentsectionlets{
-  padding-left: 12%;
+  padding-left: 12rem;
 }
 .contentsectionlets-head{
   letter-spacing: 6px;
@@ -87,10 +87,16 @@ body {
 }
 .commitsection-heading {
   font-family: '__Outfit_12c7b4', '__Outfit_Fallback_12c7b4';
-  padding-top: 2%;
+  padding-top: 2rem;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
 }
 .benefits-section-heading {
   font-family: '__Outfit_12c7b4', '__Outfit_Fallback_12c7b4'; 
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
 }
 .circle-section{
   display: flex;
@@ -98,21 +104,82 @@ body {
   border: 3px solid #000;
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 50rem;
   margin: auto;
 }
+.lets-talk-section{
+  background-image: linear-gradient(to right, #D8D5F1, #D4E3F7);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
+.footer {
+  background-color: #111316;
+}
+.footer-section-para {
+  font-family: '__Outfit_12c7b4', '__Outfit_Fallback_12c7b4';
+}
 
+.footer-para{
+  padding-left: 12.25rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.footer-help {
+  display: flex;
+  gap: 10rem;
+  padding-top: 2rem;
+}
+a {
+  font-family: poppins !important;
+}
+.help-text-footer {
+  font-family: poppins !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: -0.6px;
+}
+.small-text-footer {
+  font-family: Poppins !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight:600;
+  line-height: 23px;
+  letter-spacing: -0.32px;
+  
 
+}
+.call-section-footer {
+  border-left: 3px solid #fff;
+  padding-left: 1rem;
+}
+.icon-section-footer {
+  border-left: 3px solid #fff;
 
-
-
-
-
-
-
-
-
+}
+.icons-footer {
+  padding: 3px;
+  gap: 1rem;
+}
+.footer-menu {
+  line-height: 40px;
+  font-size: 17px;
+}
+.footer-menu-section{
+  display: flex;
+  gap: 18rem;
+}
+.copyright-section {
+  background-color: #090C10;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  font-family: Poppins;
+  font-size: 15px;
+}
 
 
 

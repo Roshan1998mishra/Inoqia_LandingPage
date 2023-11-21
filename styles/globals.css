@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .left_purple_ellipse {
   position: absolute;
   background: rgba(216, 213, 241, 0.9);
@@ -39,3 +44,50 @@
   transition: 0.2s ease;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.playerimg {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.congraimg {
+  width: 70%;
+  margin-left:10%;
+}
+.para3 {
+  padding-right: 23%;
+}
+.contentsec4{
+  padding-left: 12%;
+
+}
+.contentseclets {
+  padding-left: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

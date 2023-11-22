@@ -28,7 +28,7 @@ const Footer = () => {
 </div>
 
 
-<div className='flex'>
+<div className='flex ' >
 <div className='w-1/2 mt-10'>
             <div>
             <h4 className='help-text-footer text-white'>Need Any Help ?</h4>
@@ -41,7 +41,7 @@ const Footer = () => {
             <p className='text-white'><a href='tel:1860 233 1407'>1860 233 1407</a></p>
             
             </div>
-             
+          
             <div className='call-section-footer'>
               <p className='small-text-footer text-white'>For Any Query or Feedback</p>
               <p className='text-white'><a href='mailto:Contactus@inoqia.com'>Contactus@inoqia.com</a></p>
@@ -52,7 +52,7 @@ const Footer = () => {
          <br></br>
 
         <div className='icon-section-footer mt-10'>
-          <p className='pl-2 text-white'>Follow Us On</p>
+          <p className='pl-2 text-white font-semibold'>Follow Us On</p>
           <div className='icons-footer flex'>
             <Image src={facebook} alt='facebook'></Image>
             <Image src={twitter} alt='twitter'></Image>

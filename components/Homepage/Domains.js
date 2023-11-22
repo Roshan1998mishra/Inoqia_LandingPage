@@ -1,4 +1,5 @@
 import { Outfit } from "next/font/google";
+import Slickslider from "./Slickslider";
 
 const outfit300 = Outfit({ subsets: ["latin"], weight: "300" });
 
@@ -22,7 +23,7 @@ export const Domains = () => {
         reality.
       </p>
 
-
+      <Slickslider/>
 
 
     </div>

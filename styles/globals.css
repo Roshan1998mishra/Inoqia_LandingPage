@@ -58,7 +58,7 @@ body {
   font-family: '__Outfit_ef45e8';
 }
 
- .commited-section::before {
+ /* .commited-section::before {
   position: absolute;
   content: "01";
   font-size: 190px;
@@ -72,7 +72,8 @@ body {
   mix-blend-mode: color-burn;
   top:75rem;
 } 
-
+ 
+*/
 
 .benefitscontentsection4{
   padding-left: 12rem;
@@ -165,7 +166,7 @@ a {
   font-family: Poppins !important;
   font-size: 16px;
   font-style: normal;
-  font-weight:500;
+  font-weight:600;
   line-height: 23px;
   letter-spacing: -0.32px;
   

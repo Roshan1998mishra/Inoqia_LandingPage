@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import players from "/assets/players.svg";
 import { Outfit } from "next/font/google";
+
 const outfit800 = Outfit({ subsets: ["latin"], weight: "800" });
 
 const Commitsection = () => {

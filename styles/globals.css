@@ -58,10 +58,10 @@ body {
   font-family: '__Outfit_ef45e8';
 }
 
-.commited-section::before {
+ .commited-section::before {
   position: absolute;
   content: "01";
-  font-size: 375px;
+  font-size: 190px;
   right: 6rem;
   margin-top: 0;
   opacity: 0.4;
@@ -71,7 +71,7 @@ body {
   -webkit-text-fill-color: transparent;
   mix-blend-mode: color-burn;
   top:75rem;
-}
+} 
 
 
 .benefitscontentsection4{
@@ -186,7 +186,7 @@ a {
   line-height: 40px;
   font-size: 15px;
   font-weight: 200;
- font-family: 'Poppins';
+ font-family: 'outfit';
 }
 .footer-menu-section{
   display: flex;

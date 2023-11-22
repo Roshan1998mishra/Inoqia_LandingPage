@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .left_purple_ellipse {
@@ -58,6 +58,22 @@ body {
   font-family: '__Outfit_ef45e8';
 }
 
+.commited-section::before {
+  position: absolute;
+  content: "01";
+  font-size: 375px;
+  right: 6rem;
+  margin-top: 0;
+  opacity: 0.4;
+  font-weight: 900;
+  background: linear-gradient(93deg, #3B94FE 2.94%, #554D99 101.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: color-burn;
+  top:75rem;
+}
+
+
 .benefitscontentsection4{
   padding-left: 12rem;
 
@@ -109,8 +125,9 @@ body {
 }
 .lets-talk-section{
   background-image: linear-gradient(to right, #D8D5F1, #D4E3F7);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+}
+.vectorimg {
+  width: 18px;
 }
 
 .footer {
@@ -120,12 +137,14 @@ body {
   font-family: '__Outfit_12c7b4', '__Outfit_Fallback_12c7b4';
 }
 
-.footer-para{
+.footer-para {
   padding-left: 12.25rem;
   font-size: 14px;
   font-weight: 400;
   line-height: 32px;
+  font-family: '__Outfit_daeadc';
 }
+
 .footer-help {
   display: flex;
   gap: 10rem;
@@ -146,18 +165,17 @@ a {
   font-family: Poppins !important;
   font-size: 16px;
   font-style: normal;
-  font-weight:600;
+  font-weight:500;
   line-height: 23px;
   letter-spacing: -0.32px;
   
-
 }
 .call-section-footer {
-  border-left: 3px solid #fff;
+  border-left: 4px solid #fff;
   padding-left: 1rem;
 }
 .icon-section-footer {
-  border-left: 3px solid #fff;
+  border-left: 4px solid #fff;
 
 }
 .icons-footer {
@@ -166,7 +184,9 @@ a {
 }
 .footer-menu {
   line-height: 40px;
-  font-size: 17px;
+  font-size: 15px;
+  font-weight: 200;
+ font-family: 'Poppins';
 }
 .footer-menu-section{
   display: flex;
@@ -180,6 +200,7 @@ a {
   font-family: Poppins;
   font-size: 15px;
 }
+
 
 
 

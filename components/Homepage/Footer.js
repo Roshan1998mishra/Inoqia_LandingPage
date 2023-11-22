@@ -13,9 +13,10 @@ const Footer = () => {
            
 
 <footer class="bg-black  shadow dark:bg-gray-900  pt-20">
-    <div class="w-full max-w-screen-xl mx-auto">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <Image src={logo} alt='logo'></Image>
+
+<div class="w-full max-w-screen-xl mx-auto py-12">
+        <div class="first-footer-line sm:flex sm:items-center sm:justify-between">
+            <Image src={logo} alt='logo' className='footer-logo'></Image>
             <p className='text-white footer-para'>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -24,12 +25,13 @@ const Footer = () => {
             id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita.
             </p>
             
-        </div>
+</div>
+
 
 <div className='flex'>
 <div className='w-1/2 mt-10'>
             <div>
-            <h4 className='help-text-footer text-white'>Needs Any Help ?</h4>
+            <h4 className='help-text-footer text-white'>Need Any Help ?</h4>
             </div>
 
             <div className='flex footer-help'>
@@ -86,14 +88,13 @@ const Footer = () => {
 </div>
 </div>
 
-
 {/*-------------------------------------------------------End Menu Section--------------------------------------------------------*/}
 
 </div>
 </div>
 
 <div className='copyright-section'>
-  <p className='text-white'>© Copyright 2023, All Rights Reserved with inoqia.com - Web & Mobile App Development Division of inoqia.</p>
+  <p className='text-white font-extralight '>© Copyright 2023, All Rights Reserved with inoqia.com - Web & Mobile App Development Division of inoqia.</p>
 
 </div>
 

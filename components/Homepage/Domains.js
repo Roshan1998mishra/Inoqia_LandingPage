@@ -21,6 +21,10 @@ export const Domains = () => {
         concept to develop, we're here to collaborate and turn your vision into
         reality.
       </p>
+
+
+
+
     </div>
   );
 };

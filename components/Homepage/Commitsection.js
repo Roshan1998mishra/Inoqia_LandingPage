@@ -8,13 +8,14 @@ const Thirdsection = () => {
   return (
 <div>
 
-   <div class="flex fshow">
-  <div class="w-1/2 p-4">
+<div className="flex w-full">
+
+  <div className="basis-1/2 p-4 my-8">
     <Image src={players} alt="players" className='playerimg' /> 
   </div>
 
 
-  <div class="w-1/2 p-4">
+  <div className="commited-section basis-1/2 p-4 my-8">
 
      <p className='dedication-text text-gray-500 font-Outfit text-base font-medium leading-37 tracking-wider uppercase'>Dedication</p>
      <p className='commitsection-heading text-gray-800 font-Outfit text-4xl font-semibold leading-62 tracking-tight" w-96 style="letter-spacing: -0.9px;'>Only The Committed <br></br> Players</p>

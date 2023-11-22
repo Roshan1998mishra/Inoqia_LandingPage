@@ -4,10 +4,10 @@ import congratulations from '@/assets/congratulations.png'
 
 const Fourthsection = () => {
   return (
- <div className='main mt-10'>
+ <div className='main'>
  
 
-  <div class="flex">
+  <div class="flex my-16">
   <div class="w-1/2 p-4 benefitscontentsection4">
      <p className='timeeffective-text  text-gray-400 font-Outfit text-base font-medium leading-37 tracking-wide uppercase'>Time-Effective</p>
      <p className='benefits-section-heading  text-black-600 mt-5 text-5xl font-Outfit font-semibold leading-62 tracking-tight" style="letter-spacing: -0.9px;'>More Benefits. Less <br></br> Resistance.</p>

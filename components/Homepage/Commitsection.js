@@ -14,6 +14,7 @@ const Commitsection = () => {
       >
         01
       </div>
+
       <div className="flex flex-col md:flex-row ">
         <div className="md:w-1/2 p-4 my-8">
           <Image src={players} alt="players" className="playerimg" />

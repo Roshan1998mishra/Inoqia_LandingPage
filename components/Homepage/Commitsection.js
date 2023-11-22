@@ -9,6 +9,7 @@ const Commitsection = () => {
   return (
     <div className="relative">
       <div className="hidden md:block right_purple_ellipse_commited"></div>
+
       <div
         className={`hidden md:block  right_numbered_bg_commited ${outfit800.className}`}
       >

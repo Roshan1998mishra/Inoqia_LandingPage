@@ -16,7 +16,7 @@ const Footer = () => {
     <div>
       <footer className="bg-black  shadow dark:bg-gray-900  pt-20">
         <div className="w-full max-w-screen-xl mx-auto py-12">
-          <div className="  first-footer-line sm:flex sm:items-center sm:justify-between">
+          <div className="first-footer-line sm:flex sm:items-center sm:justify-between">
             <Image src={logo} alt="logo" className="footer-logo"></Image>
             <p className={`text-white footer-para ${outfit400.className} `}>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

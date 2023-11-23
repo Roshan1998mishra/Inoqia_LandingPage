@@ -5,10 +5,19 @@ import congratulations from "@/assets/congratulations.png";
 
 const outfit300 = Outfit({ subsets: ["latin"], weight: "300" });
 const outfit500 = Outfit({ subsets: ["latin"], weight: "500" });
+const outfit800 = Outfit({ subsets: ["latin"], weight: "800" });
 
 const Benefitsection = () => {
   return (
-    <div className="main">
+    <div className="relative my-40">
+      <div className="hidden md:block left_purple_ellipse_commited"></div>
+
+      <div
+        className={`hidden md:block  left_numbered_bg_commited ${outfit800.className}`}
+      >
+        02
+      </div>
+
       <div className="flex flex-col md:flex-row  my-28">
         <div className="md:w-1/2 p-4 benefitscontentsection4">
           <p

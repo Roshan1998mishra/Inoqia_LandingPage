@@ -54,6 +54,32 @@ body {
   opacity: 0.3;
 }
 
+.left_purple_ellipse_commited {
+  top: -150px;
+  opacity: 0.8;
+  right: 55rem;
+  position: absolute;
+  background: rgba(216, 213, 241, 0.9);
+  width: 600px;
+  height: 31rem;
+  z-index: -2;
+  /* bottom: 120px; */
+  filter: blur(59.375px);
+}
+
+.left_numbered_bg_commited {
+  background: linear-gradient(93deg, #3b94fe 2.94%, #554d99 101.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 225px;
+  position: absolute;
+  right: 69rem;
+  font-weight: 800;
+  z-index: -1;
+  top: -150px;
+  opacity: 0.3;
+}
+
 .gradient_btn {
   border-radius: 5px;
   color: white;

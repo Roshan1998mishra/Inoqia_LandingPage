@@ -13,7 +13,7 @@ const outfit600 = Outfit({ subsets: ["latin"], weight: "600" });
 
 const Commitsection = () => {
   return (
-    <div className="relative">
+    <div className="relative my-40">
       <div className="hidden md:block right_purple_ellipse_commited"></div>
 
       <div

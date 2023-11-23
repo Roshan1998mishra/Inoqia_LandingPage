@@ -9,11 +9,13 @@ const Commitsection = () => {
   return (
     <div className="relative">
       <div className="hidden md:block right_purple_ellipse_commited"></div>
+
       <div
         className={`hidden md:block  right_numbered_bg_commited ${outfit800.className}`}
       >
         01
       </div>
+
       <div className="flex flex-col md:flex-row ">
         <div className="md:w-1/2 p-4 my-8">
           <Image src={players} alt="players" className="playerimg" />

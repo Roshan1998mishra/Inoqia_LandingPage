@@ -9,8 +9,8 @@ const outfit500 = Outfit({ subsets: ["latin"], weight: "500" });
 export const HeroSection = () => {
   return (
     <div className="w-[80%] mx-auto h-[100vh]">
-      <div className="left_purple_ellipse"></div>
-      <div className="right_purple_ellipse"></div>
+      <div className="hidden md:block left_purple_ellipse"></div>
+      <div className="hidden md:block right_purple_ellipse"></div>
       <div className="flex relative z-10">
         <div className="w-[40%] py-60">
           <h3

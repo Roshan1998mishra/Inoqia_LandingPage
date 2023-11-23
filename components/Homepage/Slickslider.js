@@ -21,7 +21,7 @@ export default function SimpleSlider() {
       </div>
 
       <div>
-      <Image src={sliderimage} alt="sliderimage"></Image>
+      <Image src={sliderimage} alt="sliderimage" ></Image>
       </div>
 
 
@@ -31,7 +31,7 @@ export default function SimpleSlider() {
 
 
       <div>
-      <Image src={sliderimage} alt="sliderimage"></Image>
+      <Image src={sliderimage} alt="sliderimage" ></Image>
       </div>
       
 

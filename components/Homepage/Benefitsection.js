@@ -4,8 +4,8 @@ import congratulations from '@/assets/congratulations.png'
 
 const Fourthsection = () => {
   return (
- <div className='main'>
- 
+ <div>
+  
 
   <div class="flex flex-col md:flex-row  my-16 ">
 

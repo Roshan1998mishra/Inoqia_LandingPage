@@ -74,15 +74,17 @@ body {
   margin-left: 20%;
 }
 
+.slider-section {
+}
+
 .congraimg {
   width: 70%;
 }
 .commitsection-para3 {
   padding-right: 10rem;
-  font-family: "__Outfit_ef45e8";
 }
 
- /* .commited-section::before {
+/* .commited-section::before {
   position: absolute;
   content: "01";
   font-size: 190px;
@@ -98,11 +100,10 @@ body {
 } 
  
 */
-.benefitscontentsection4{
+.benefitscontentsection4 {
   padding-left: 12rem;
-
 }
-.contentsectionlets{
+.contentsectionlets {
   padding-left: 12rem;
 }
 .contentsectionlets {
@@ -122,21 +123,13 @@ body {
   letter-spacing: 6px;
   color: #888;
 }
-.lets-talk-section-para {
-  font-family: "__Outfit_ef45e8";
-}
-.benefits-section-para {
-  font-family: "__Outfit_ef45e8";
-}
 .commitsection-heading {
-  font-family: "__Outfit_12c7b4", "__Outfit_Fallback_12c7b4";
   padding-top: 2rem;
   font-size: 28px;
   font-weight: 500;
   line-height: 35px;
 }
 .benefits-section-heading {
-  font-family: "__Outfit_12c7b4", "__Outfit_Fallback_12c7b4";
   font-size: 28px;
   font-weight: 500;
   line-height: 35px;
@@ -160,16 +153,12 @@ body {
 .footer {
   background-color: #111316;
 }
-.footer-section-para {
-  font-family: "__Outfit_12c7b4", "__Outfit_Fallback_12c7b4";
-}
 
 .footer-para {
   padding-left: 12.25rem;
   font-size: 14px;
   font-weight: 400;
   line-height: 32px;
-  font-family: "__Outfit_daeadc";
 }
 
 .footer-help {
@@ -177,9 +166,7 @@ body {
   gap: 10rem;
   padding-top: 2rem;
 }
-a {
-  font-family: poppins !important;
-}
+
 .help-text-footer {
   font-family: poppins !important;
   font-size: 25px;
@@ -192,7 +179,7 @@ a {
   font-family: Poppins !important;
   font-size: 16px;
   font-style: normal;
-  font-weight:600;
+  font-weight: 600;
   line-height: 23px;
   letter-spacing: -0.32px;
 }

@@ -1,10 +1,15 @@
 import React from "react";
+import { Outfit } from "next/font/google";
 import Image from "next/image";
 import logo from "/assets/logo.svg";
 import facebook from "/assets/facebook.svg";
 import twitter from "/assets/twitter.svg";
 import youtube from "/assets/youtube.svg";
 import instagram from "/assets/instagram.svg";
+
+const outfit300 = Outfit({ subsets: ["latin"], weight: "300" });
+
+const outfit400 = Outfit({ subsets: ["latin"], weight: "400" });
 
 const Footer = () => {
   return (
@@ -13,7 +18,7 @@ const Footer = () => {
         <div className="w-full max-w-screen-xl mx-auto py-12">
           <div className="first-footer-line sm:flex sm:items-center sm:justify-between">
             <Image src={logo} alt="logo" className="footer-logo"></Image>
-            <p className="text-white footer-para">
+            <p className={`text-white footer-para ${outfit400.className} `}>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -23,47 +28,128 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex ">
+          <div className="flex">
             <div className="w-1/2 mt-10">
               <div>
                 <h4 className="help-text-footer text-white">Need Any Help ?</h4>
               </div>
 
-              {/*--------------------------------------------------------Menu sectio-----------------------------------------------------------*/}
+              <div className="flex footer-help">
+                <div className="call-section-footer">
+                  <p className="small-text-footer text-white">
+                    Call 24/7 For Any Help
+                  </p>
+                  <p className="text-white">
+                    <a href="tel:1860 233 1407">1860 233 1407</a>
+                  </p>
+                </div>
 
-              <div className="call-section-footer">
-                <p className="small-text-footer text-white">
-                  Call 24/7 For Any Help
-                </p>
-                <p className="text-white">
-                  <a href="tel:1860 233 1407">1860 233 1407</a>
-                </p>
+                <div className="call-section-footer">
+                  <p className="small-text-footer text-white">
+                    For Any Query or Feedback
+                  </p>
+                  <p className="text-white">
+                    <a href="mailto:Contactus@inoqia.com">
+                      Contactus@inoqia.com
+                    </a>
+                  </p>
+                </div>
               </div>
 
-              <div className="call-section-footer">
-                <p className="small-text-footer text-white">
-                  For Any Query or Feedback
-                </p>
-                <p className="text-white">
-                  <a href="mailto:Contactus@inoqia.com">Contactus@inoqia.com</a>
-                </p>
+              <br></br>
+
+              <div className="icon-section-footer mt-10">
+                <p className="pl-2 text-white">Follow Us On</p>
+                <div className="icons-footer flex">
+                  <Image src={facebook} alt="facebook"></Image>
+                  <Image src={twitter} alt="twitter"></Image>
+                  <Image src={instagram} alt="instagram"></Image>
+                  <Image src={youtube} alt="youtube"></Image>
+                </div>
               </div>
-
-              {/*-------------------------------------------------------End Menu Section--------------------------------------------------------*/}
             </div>
-          </div>
 
-          <br></br>
+            {/*--------------------------------------------------------Menu sectio-----------------------------------------------------------*/}
 
-          <div className="icon-section-footer mt-10">
-            <p className="pl-2 text-white font-semibold">Follow Us On</p>
-            <div className="icons-footer flex">
-              <Image src={facebook} alt="facebook"></Image>
-              <Image src={twitter} alt="twitter"></Image>
-              <Image src={instagram} alt="instagram"></Image>
-              <Image src={youtube} alt="youtube"></Image>
+            <div className="w-1/2 mt-10">
+              <div className="flex footer-menu-section">
+                <div className={`footer-menu ${outfit300.className}`}>
+                  <p>
+                    <a className="text-white" href="#">
+                      About
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Services
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Industry
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Our Work
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Hire
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Blogs
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Contact
+                    </a>
+                  </p>
+                </div>
+
+                <div className="footer-menu">
+                  <p>
+                    <a className="text-white" href="#">
+                      Sitemap
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Careers
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Travel Agents
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      FAQs
+                    </a>
+                  </p>
+                  <p>
+                    <a className="text-white" href="#">
+                      Carriage of Pets
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
+
+            {/*-------------------------------------------------------End Menu Section--------------------------------------------------------*/}
           </div>
+        </div>
+
+        <div className="copyright-section">
+          <p className="text-white font-extralight ">
+            © Copyright 2023, All Rights Reserved with inoqia.com - Web & Mobile
+            App Development Division of inoqia.
+          </p>
         </div>
       </footer>
     </div>

@@ -5,6 +5,12 @@ import { Outfit } from "next/font/google";
 
 const outfit800 = Outfit({ subsets: ["latin"], weight: "800" });
 
+const outfit300 = Outfit({ subsets: ["latin"], weight: "300" });
+
+const outfit500 = Outfit({ subsets: ["latin"], weight: "500" });
+
+const outfit600 = Outfit({ subsets: ["latin"], weight: "600" });
+
 const Commitsection = () => {
   return (
     <div className="relative">
@@ -22,17 +28,21 @@ const Commitsection = () => {
         </div>
 
         <div className="commited-section md:w-1/2 p-4 my-8">
-          <p className="dedication-text text-gray-500  text-base font-medium leading-37 tracking-wider uppercase">
+          <p
+            className={`dedication-text text-gray-500  text-base font-medium leading-37 tracking-wider uppercase ${outfit300.className}`}
+          >
             Dedication
           </p>
+
           <p
-            className="commitsection-heading text-gray-800 text-4xl font-semibold leading-62 tracking-tight w-96"
+            className={`commitsection-heading text-gray-800 text-4xl font-semibold leading-62 tracking-tight w-96 ${outfit600.className}`}
             style={{ letterSpacing: "-0.9px" }}
           >
             Only The Committed <br></br> Players
           </p>
+
           <p
-            className="commitsection-para3 text-gray-700  text-base font-normal pt-7  leading-38 tracking-tighter"
+            className={`commitsection-para3 text-gray-700  text-base font-normal pt-7  leading-38 tracking-tighter ${outfit300.className}`}
             style={{ letterSpacing: "-0.4px" }}
           >
             Inoqia is home for the radically dedicated and uniquely skilled

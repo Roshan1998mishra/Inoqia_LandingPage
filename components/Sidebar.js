@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <div>
       <div className="sidebar">
-        <p className={`sidebar-a ${outfit600.className}`}>Edtech</p>
+        <p className={`sidebar-a  ${outfit600.className}`}>Edtech</p>
         <p className={`sidebar-a ${outfit600.className}`}>Fintech</p>
         <p className={`sidebar-a ${outfit600.className}`}>Health</p>
         <p className={`sidebar-a ${outfit600.className}`}>CSR</p>

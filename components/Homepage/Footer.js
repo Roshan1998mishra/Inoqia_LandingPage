@@ -147,8 +147,7 @@ const Footer = () => {
 
         <div className="copyright-section">
           <p className="text-white font-extralight ">
-            © Copyright 2023, All Rights Reserved with inoqia.com - Web & Mobile
-            App Development Division of inoqia.
+            © Copyright 2023, All Rights Reserved with Inoqia
           </p>
         </div>
       </footer>

@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import chevronRight from "/assets/chevronRight.svg";
 import { Outfit } from "next/font/google";
-import Link from "next/link";
 import { useState } from "react";
 import Model from "./Model";
 

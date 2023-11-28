@@ -244,11 +244,39 @@ body {
   font-size: 25px;
 }
 .sidebar-a:hover {
+  transition: 0.2s ease;
   color: #1f84fe;
+  font-size: 40px;
   cursor: pointer;
 }
 .sidebar {
   border-right: 1px solid #aaa;
   margin-right: 2rem;
-  line-height: 6rem;
+  line-height: 5.5rem;
 }
+.sidebar_selected {
+  transition: 0.2s ease;
+  color: #1f84fe;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* slider css */
+.slider_custom {
+  display: flex !important;
+  justify-content: space-between;
+}
+.slider_custom {
+  height: 50%;
+}
+.slider_custom .slick-list {
+  width: 84% !important;
+  /* height: 90%; */
+  margin: 0px auto;
+  padding: 0 0 0 0 !important;
+}
+.slick-slide {
+  margin: 0 10px !important;
+}
+
+/*------------modal css ---------------------*/

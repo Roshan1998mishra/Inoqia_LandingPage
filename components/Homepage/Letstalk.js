@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import chevronRight from "/assets/chevronRight.svg";
 import { Outfit } from "next/font/google";
+import Link from "next/link";
 
 const outfit300 = Outfit({ subsets: ["latin"], weight: "300" });
 
@@ -33,11 +34,13 @@ const Letstalk = () => {
 
         <div className="w-1/2 p-4 mt-16">
           <div className="circle-section">
-            <Image
-              src={chevronRight}
-              alt="chevronRight"
-              className="vectorimg"
-            ></Image>
+            <button>
+              <Image
+                src={chevronRight}
+                alt="chevronRight"
+                className="vectorimg"
+              ></Image>
+            </button>
           </div>
         </div>
       </div>

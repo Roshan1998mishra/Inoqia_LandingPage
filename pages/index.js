@@ -4,11 +4,9 @@ import { Header } from "@/components/Homepage/Header";
 import { HeroSection } from "@/components/Homepage/HeroSection";
 import Letstalk from "@/components/Homepage/Letstalk";
 import Meta from "@/components/Homepage/Meta";
-import Commitsection from "@/components/Homepage/Commitsection"
+import Commitsection from "@/components/Homepage/Commitsection";
 import Footer from "@/components/Homepage/Footer";
-
-
-
+import Model from "@/components/Homepage/Model";
 
 export default function Home() {
   return (
@@ -24,10 +22,11 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Domains />
-      <Commitsection/>
-      <Benefitsection/>
-      <Letstalk/>
-      <Footer/>
+      <Commitsection />
+      <Benefitsection />
+      <Letstalk />
+      <Model />
+      <Footer />
     </>
   );
 }

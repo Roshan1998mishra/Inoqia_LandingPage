@@ -2,21 +2,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import chevronRight from "/assets/chevronRight.svg";
 
-const Modal = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Modal = ({ isOpen, closeModal }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-
-  const openModal = () => {
-    setIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsOpen(false);
-  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -37,13 +28,6 @@ const Modal = () => {
 
   return (
     <div>
-      <button
-        className=" text-white font-bold py-2 px-4 rounded"
-        onClick={openModal}
-      >
-        <Image src={chevronRight} alt="chevronRight"></Image>
-      </button>
-
       {isOpen && (
         <div className="fixed z-10 inset-0 overflow-y-auto">
           <div className="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">

@@ -169,6 +169,7 @@ body {
   height: 125px;
   border-radius: 50rem;
   margin: auto;
+  cursor: pointer;
 }
 .lets-talk-section {
   background-image: linear-gradient(to right, #d8d5f1, #d4e3f7);
@@ -277,4 +278,57 @@ body {
 }
 .slick-slide {
   margin: 0 10px !important;
+}
+
+/*------------modal css ---------------------*/
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  transition: border-bottom 0.3s;
+  font-size: 24px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-bottom: 2px solid #000;
+}
+
+#message {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  transition: border-bottom 0.3s;
+  font-size: 24px;
+}
+
+.cross {
+  float: right;
+  width: 1rem;
+}
+
+.talktous {
+  color: #14191f;
+  line-height: 62px;
+  letter-spacing: -1.4px;
+  font-size: 40px;
+}
+
+.shortly {
+  color: #c0c0c0;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+  font-size: 18px;
+}
+
+.mymessagebtn {
+  background-color: #000;
+  color: #fff;
+  width: 100% !important;
+}
+
+.mymessagebtn:hover {
+  background-color: #000 !important;
+  color: #fff !important;
 }

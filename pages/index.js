@@ -4,15 +4,12 @@ import { Header } from "@/components/Homepage/Header";
 import { HeroSection } from "@/components/Homepage/HeroSection";
 import Letstalk from "@/components/Homepage/Letstalk";
 import Meta from "@/components/Homepage/Meta";
-import Commitsection from "@/components/Homepage/Commitsection"
+import Commitsection from "@/components/Homepage/Commitsection";
 import Footer from "@/components/Homepage/Footer";
-
-
-
 
 export default function Home() {
   return (
-    <>
+    <div className="supreme-container">
       <Meta
         title="Inoqia - Connect With Visionary Minds"
         desc="Inoqia - Connect With Visionary Minds"
@@ -24,10 +21,10 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Domains />
-      <Commitsection/>
-      <Benefitsection/>
-      <Letstalk/>
-      <Footer/>
-    </>
+      <Commitsection />
+      <Benefitsection />
+      <Letstalk />
+      <Footer />
+    </div>
   );
 }

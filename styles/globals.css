@@ -332,3 +332,6 @@ input[type="email"]:focus {
   background-color: #000 !important;
   color: #fff !important;
 }
+.model-card {
+  border: 6px solid;
+}

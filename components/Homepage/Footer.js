@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex">
+          <div className="flex mainsection">
             <div className="w-1/2 mt-10">
               <div>
                 <h4 className="help-text-footer text-white">Need Any Help ?</h4>
@@ -111,7 +111,7 @@ const Footer = () => {
                   </p>
                 </div>
 
-                <div className="footer-menu">
+                <div className={`footer-menu ${outfit300.className}`}>
                   <p>
                     <a className="text-white" href="#">
                       Sitemap

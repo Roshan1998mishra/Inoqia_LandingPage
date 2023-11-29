@@ -1,2 +1,88 @@
-@media (max-width: 810px) {
+@media (max-width: 768px) {
+  .first-footer-line {
+    display: block;
+  }
+  .footer-para {
+    padding: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer-logo {
+    margin: auto;
+  }
+  .footer-help {
+    display: block;
+    margin-left: 3rem;
+  }
+  .footer-menu-section {
+    display: block;
+    margin-left: 3rem;
+  }
+  .call-section-footer {
+    margin-bottom: 3rem;
+  }
+  .icon-section-footer {
+    margin-left: 3rem;
+  }
+  .help-text-footer {
+    text-align: center;
+  }
+  .benefitscontentsection4 {
+    padding-left: 1rem;
+  }
+  .congraimg {
+    width: 100%;
+  }
+  .commitsection-para3 {
+    padding-right: 1rem;
+  }
+  .playerimg {
+    width: 100%;
+    margin: 0;
+  }
+  .contentsectionlets {
+    padding-left: 1rem;
+  }
+
+  .myhero {
+    width: 50%;
+  }
+  .mainhero-section {
+    margin-top: -7rem;
+  }
+  .hero-img-section {
+    width: 50%;
+  }
+  .domain-section {
+    margin-top: 22rem;
+  }
+}
+
+@media (max-width: 562px) {
+  .mybox-hero {
+    display: block;
+  }
+  .hero-img-section {
+    margin-top: -22rem;
+    margin-left: 2rem;
+    width: 50%;
+  }
+  .domain-section {
+    margin-top: 34rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainsection {
+    display: block;
+  }
+  .lets-talk-section {
+    display: block;
+  }
+  .contentsectionlets {
+    width: 100%;
+  }
+}
+
+@media (max-width: 405px) {
 }

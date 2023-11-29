@@ -8,7 +8,7 @@ const outfit500 = Outfit({ subsets: ["latin"], weight: "500" });
 export const Domains = () => {
   const showcaseList = [{ title: "Blockchain", items: [] }];
   return (
-    <div className="w-[80%] mx-auto h-[100vh] z-100 relative">
+    <div className="domain-section w-[80%] mx-auto h-[100vh] z-100 relative">
       <h1
         className={`${outfit500.className} text-[50px] mt-10 text-center leading-tight`}
       >

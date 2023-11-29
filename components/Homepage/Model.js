@@ -45,7 +45,7 @@ const Modal = ({ isOpen, closeModal }) => {
             <span className="hidden sm:inline-block sm:align-middle sm:h-screen"></span>
             &#8203;
             <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
-              <div className="flex">
+              <div className="flex model-card">
                 <div className="basis-1/2 p-4">
                   <p className={`talktous ${outfit600.className}`}>
                     Talk to us in Brief?
@@ -58,7 +58,13 @@ const Modal = ({ isOpen, closeModal }) => {
                 <div className="basis-1/2">
                   <form onSubmit={handleSubmit}>
                     <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-                      <Image className="cross" src={cross} alt="cross"></Image>
+                      <div>
+                        <Image
+                          className="cross"
+                          src={cross}
+                          alt="cross"
+                        ></Image>
+                      </div>
                       <div className="sm:flex sm:items-start">
                         <div className="w-full">
                           <div className="mb-4">

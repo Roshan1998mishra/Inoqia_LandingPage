@@ -9,7 +9,7 @@ import Footer from "@/components/Homepage/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="supreme-container">
       <Meta
         title="Inoqia - Connect With Visionary Minds"
         desc="Inoqia - Connect With Visionary Minds"
@@ -25,6 +25,6 @@ export default function Home() {
       <Benefitsection />
       <Letstalk />
       <Footer />
-    </>
+    </div>
   );
 }

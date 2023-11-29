@@ -287,7 +287,7 @@ input[type="email"] {
   border-bottom: 2px solid #ccc;
   outline: none;
   transition: border-bottom 0.3s;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 input[type="text"]:focus,
@@ -300,7 +300,7 @@ input[type="email"]:focus {
   border-bottom: 2px solid #ccc;
   outline: none;
   transition: border-bottom 0.3s;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .cross {
@@ -312,14 +312,14 @@ input[type="email"]:focus {
   color: #14191f;
   line-height: 62px;
   letter-spacing: -1.4px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .shortly {
   color: #c0c0c0;
   line-height: 20px;
   letter-spacing: 0.32px;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .mymessagebtn {
